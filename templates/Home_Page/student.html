@@ -1,0 +1,12 @@
+{% extends 'Home_Page/base.html' %}
+{% load static i18n app_tags %}
+{% block content %}
+<ul>
+    {% for item in data %}
+    <li>{{ item.full_name }}</li>
+
+    {% endfor %}
+<!--    <h2>{{ data }}</h2>-->
+</ul>
+
+{% endblock %}
