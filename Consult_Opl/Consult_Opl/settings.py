@@ -25,7 +25,7 @@ SECRET_KEY = 'o85@29sz9@(utx8_ny+$e^3tf@cpqtmygc*_#)#!^^+6kjj)4b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['zavaco.github.io/Consult_Opl/']
+ALLOWED_HOSTS = ['https://zavaco.github.io/Consult_Opl/']
 
 
 # Application definition
